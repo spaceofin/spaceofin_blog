@@ -18,6 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+# permalink: /:categories/:year/:month/:day/:title.html
+# 와 같이 적을 수도 있다
+
+
+permalink: /:categories/:year/:month/:day/
+
 title: OfIn
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
